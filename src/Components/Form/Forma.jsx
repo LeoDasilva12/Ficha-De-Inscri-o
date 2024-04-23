@@ -198,8 +198,8 @@ export default function Form() {
                 <div className="container form__section-container">
                     <div className="logoSemana"><img src={logoSemana} width="250" id="semana_lingua" /></div>
                     <h1 id="Tema">Semana da Língua Portuguesa</h1>
-                    <h1 id="Tema1">“Partilha de Saberes, com vista ao Desenvolvimento da Língua Portuguesa”</h1>
-                    <h1 id="Tema3">De 5 a 11 de Maio de 2023 - 4.ª edição</h1>
+                    <h1 id="Tema1">“Língua, conhecimento e desenvolvimento”</h1>
+                    <h1 id="Tema3">De 5 a 10 de Maio de 2024 - 5.ª edição</h1>
                     <h1 id="Tema5">Formulário de Inscrição</h1>
 
 
@@ -210,7 +210,7 @@ export default function Form() {
                         <input type="text" name="nome" placeholder="Nome completo" onChange={valorInput} value={data.name} required />
 
                         {/* Criar o campo, quando o usuario digitar valor no campo, chamar com onChange a funcao valorInput*/}
-                        <input type="text" name="area" placeholder="Área de Formação" onChange={valorInput} value={data.area} required />
+                        <input type="text" name="area" placeholder="Área de formação" onChange={valorInput} value={data.area} required />
 
                         {/* Criar o campo, quando o usuario digitar valor no campo, chamar com onChange a funcao valorInput*/}
                         <input type="text" name="instituition" placeholder="Instituição que representa" onChange={valorInput} value={data.instituition} required />
@@ -228,7 +228,7 @@ export default function Form() {
                         <input type="email" name="email" placeholder="Endereço de correio electrónico" onChange={valorInput} value={data.email} required />
 
                         {/* Criar o campo, quando o usuario digitar valor no campo, chamar com onChange a funcao valorInput*/}
-                        <input type="text" name="tema" placeholder="Tema" onChange={valorInput} value={data.tema} required />
+                        <input type="text" name="tema" placeholder="Título" onChange={valorInput} value={data.tema} required />
 
                         {/* Criar o campo, quando o usuario digitar valor no campo, chamar com onChange a funcao valorInput*/}
                         <textarea name="resumo" id="Tema4" cols="30" rows="10" placeholder="Resumo" onChange={valorInput} value={data.resumo} required></textarea>
