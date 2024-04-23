@@ -51,8 +51,7 @@ export default function Form() {
             your_phone2: data.phone2,
             email: data.email,
             tema: data.tema,
-            resumo: data.resumo,
-            message: data.resumo
+            resumo: data.resumo
         };
 
         emailjs.send("service_eu9k3pi", "template_xovf7ms", TemplateParams, "g315dGgdsD-S7xzVU")
