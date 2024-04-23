@@ -94,11 +94,11 @@ export default function Form() {
                     doc.setFont('helvetica');
                     doc.setFontSize(12);
                     doc.setTextColor(0, 0, 0); // Cor preta
-                    doc.text("Partilha de Saberes, com vista ao Desenvolvimento da Língua Portuguesa", centerX(doc.internal.pageSize.width, 0), 97, { align: 'center' });
+                    doc.text("“Língua, conhecimento e desenvolvimento”", centerX(doc.internal.pageSize.width, 0), 97, { align: 'center' });
 
                     // Adicionar parágrafo "De 5 a 11 de Maio de 2023 - 4.ª edição"
                     doc.setFont('helvetica');
-                    doc.text("De 5 a 11 de Maio de 2023 - 4.ª edição", centerX(doc.internal.pageSize.width, 0), 104, { align: 'center' });
+                    doc.text("De 5 a 10 de Maio de 2024 - 5.ª edição", centerX(doc.internal.pageSize.width, 0), 104, { align: 'center' });
 
                     // Adicionar detalhes do formulário ao PDF com estilos personalizados
                     doc.setFont('helvetica');
@@ -120,7 +120,9 @@ export default function Form() {
                     doc.text(`_________________________________________________________________________________`, 10, 176);
                     doc.text(`Email: ${data.email}`, 10, 182);
                     doc.text(`_________________________________________________________________________________`, 10, 183);
-                    doc.text(`Tema: ${data.resumo}`, 10, 189);
+                    doc.text(`Tema: ${data.tema}`, 10, 189);
+                    doc.text(`_________________________________________________________________________________`, 10, 190);
+                    doc.text(`Resumo: ${data.resumo}`, 10, 196);
 
                     // Adicionar marca d'água na parte inferior do PDF
                     const footerimgWidth = 200;
