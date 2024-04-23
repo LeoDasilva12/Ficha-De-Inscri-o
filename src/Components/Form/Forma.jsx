@@ -51,6 +51,7 @@ export default function Form() {
             your_phone2: data.phone2,
             email: data.email,
             tema: data.tema,
+            resumo: data.resumo,
             message: data.resumo
         };
 
