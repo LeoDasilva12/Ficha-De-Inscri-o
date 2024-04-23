@@ -230,7 +230,7 @@ export default function Form() {
                         <input type="email" name="email" placeholder="Endereço de correio electrónico" onChange={valorInput} value={data.email} required />
 
                         {/* Criar o campo, quando o usuario digitar valor no campo, chamar com onChange a funcao valorInput*/}
-                        <input type="text" name="tema" placeholder="Título" onChange={valorInput} value={data.tema} required />
+                        <input type="text" name="tema" placeholder="Título da comunicação" onChange={valorInput} value={data.tema} required />
 
                         {/* Criar o campo, quando o usuario digitar valor no campo, chamar com onChange a funcao valorInput*/}
                         <textarea name="resumo" id="Tema4" cols="30" rows="10" placeholder="Resumo" onChange={valorInput} value={data.resumo} required></textarea>
